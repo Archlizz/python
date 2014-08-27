@@ -68,7 +68,8 @@ public class HTTP2Socket {
 		// i++;
 		// }
 		
+		String value = ReadProp.getInstance().getProperties("hnnxconfig.properties", "envTipText", "≤‚ ‘");
+		System.out.println(value);
 	}// main
 
-	
 }
